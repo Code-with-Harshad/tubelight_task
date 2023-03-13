@@ -1,0 +1,51 @@
+.userList__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.inputLabel__Title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  margin-bottom: 7px;
+}
+
+.form-control {
+  flex: 1 1 auto;
+  padding: 0.5rem 5rem 0.5rem 2.3rem;
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  height: 38px;
+  line-height: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.submit__Btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px 75px;
+  background-color: #222222;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.user__informationTitleHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.user__informationTitleHeader > h1 {
+  margin: 0px;
+  padding: 8px 0px;
+  font-size: 14px;
+  text-align: center;
+}
